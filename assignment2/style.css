@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #eff0f2;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.subtitle {
+    color: #ff6b6b;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.title {
+    font-size: 38px;
+    margin-bottom: 60px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.card {
+    width: 340px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 40px 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+
+.card h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.card h3 {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.card h3 span {
+    font-size: 14px;
+    color: #888;
+}
+
+.card button {
+    padding: 12px 35px;
+    border: none;
+    background-color: #ff6b6b;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transition: background 0.3s;
+}
+.card h4 {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.card ul li {
+    margin: 5%;
+    color: #555;
+    font-size: 14px;
+}
